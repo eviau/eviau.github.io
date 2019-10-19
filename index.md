@@ -50,5 +50,5 @@ URL permanent : [HEC Biblio](https://hec.summon.serialssolutions.com/#!/search?b
 
 * ARTificial: art et intelligence artificielle
 
-Première édition à l'Espace POP, décembre 2018. Site web: [artificial.st](artificial.st).
+Première édition à l'Espace POP, décembre 2018. Site web: [artificial.st](http://artificial.st).
 
