@@ -6,7 +6,7 @@
 
 ## Nouvelles - news !
 
-WIP : [Art Gallery game](https://eviau.github.io/artgalleryjs/), based on a NP-hard computational geomtry problem.
+WIP : [Art Gallery game](https://eviau.github.io/artgalleryjs/), based on a NP-hard computational geometry problem.
 
 ## Talks - Présentations
 
