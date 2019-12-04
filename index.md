@@ -1,7 +1,12 @@
-*Dernière mise-à-jour: 18 octobre 2019*
+*Dernière mise-à-jour: 3 décembre 2019*
 
 # eviau.github.io
 [About me](https://eviau.github.io/aboutme.html)
+
+
+## Nouvelles - news !
+
+WIP : [Art Gallery game](https://eviau.github.io/artgalleryjs/), based on a NP-hard computational geomtry problem.
 
 ## Talks - Présentations
 
