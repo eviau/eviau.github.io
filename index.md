@@ -6,7 +6,7 @@
 
 ## Nouvelles - news !
 
-WIP : [Art Gallery game](https://eviau.github.io/artgalleryjs/), based on a NP-hard computational geometry problem.
+Essai sur la création de jeux: [Systématiser la création de jeux](https://eviau.github.io/ecrits/complexitejeu.html)
 
 ## Talks - Présentations
 
@@ -26,6 +26,8 @@ WIP : [Art Gallery game](https://eviau.github.io/artgalleryjs/), based on a NP-h
 
 
 ## Code - Programmation
+
+* The [Art Gallery game](https://eviau.github.io/artgalleryjs/), based on a NP-hard computational geometry problem.
 
 * Exploration d'algorithmes de base sur des données synthétiques
 
