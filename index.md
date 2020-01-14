@@ -1,4 +1,4 @@
-*Dernière mise-à-jour: 3 décembre 2019*
+*Dernière mise-à-jour: 14 janvier 2020*
 
 # eviau.github.io
 [About me](https://eviau.github.io/aboutme.html)
@@ -6,7 +6,7 @@
 
 ## Nouvelles - news !
 
-Essai sur la création de jeux: [Systématiser la création de jeux](https://eviau.github.io/ecrits/complexitejeu.html)
+* En février 2020, je donnerai un [atelier bilingue FR/EN Python sur l'apprentissage machine pour les arts (introduction)](https://easternbloc.ca/fr/laboratoire/ateliers/machine-learning-python). 
 
 ## Talks - Présentations
 
@@ -15,6 +15,8 @@ Essai sur la création de jeux: [Systématiser la création de jeux](https://evi
 * [Claude Shannon pour Mathématiques Montréal Mathematics](https://github.com/eviau/eviau.github.io/blob/master/talks/maths_industrie_shannon.pdf): présentation grand public des principaux travaux de recherche de Claude Shannon et du contexte dans lequel ceux-ci se sont développés.
 
 ## Écrits - Writings
+
+* 3 décembre 2019 : Essai sur la création de jeux: [Systématiser la création de jeux](https://eviau.github.io/ecrits/complexitejeu.html)
 
 * 2 février 2019: [LuminX / LEDxchange](https://eviau.github.io/finartcialist/luminx.html), un projet de [finartcialist](https://eviau.github.io/finartcialist/index.html)
 
