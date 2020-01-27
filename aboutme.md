@@ -31,7 +31,6 @@ Par courriel / by email : [courriel HEC Montréal](mailto:edith.viau@hec.ca)
 Things I have done or participated in:
 
 *2019*
-
 * [Mathématiques Montréal Mathematics](https://www.meetup.com/fr-FR/Mathematiques-Montreal-Mathematics/), groupe sur les mathématiques.
 * [Congrès AMQ 2019](http://amq2019.com/index.html), présentation sur l'art et l'intelligence artificielle.
 * [Montréal Python](https://montrealpython.org/), présentation sur mon projet LuminX.
