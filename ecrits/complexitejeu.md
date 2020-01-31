@@ -30,7 +30,7 @@ Ce premier jeu me semble intéressant mais peut-être simpliste... des lectures 
 
 Entre temps, je développe un fort intérêt pour la crise des fondements des mathématiques du début du XXième siècle - intérêt qui me pousse à en faire un premier jeu de société visant à expliciter les grandes lignes de cette crise tout en simulant le fait d'être mathématicien ou mathématicienne. Ce premier jeu de société m'introduit à la mécanique des jeux de société et à leur économie - et me pousse à affiner mon raisonnement sur ce qui rend un jeu intéressant. Je pars à la recherche d'une définition formelle, mais pas nécessairement mathématique, de la notion d'amusement - bien que tout jeu puisse être considéré amusant, y a-t-il une formulation permettant de conclure qu'une catégorie de jeux soit considérée comme amusante par un nombre suffisamment grand de personnes pour que ce jeu soit amusant de façon, disons, "rationnelle" ?
 
-C'est là la naissance de l'hypothèse de jeu basé sur un problème conne comme étant NP-difficile. Armée de cette hypothèse et d'une liste de problèmes NP-difficile, je cherche à concevoir un premier jeu: l'idée me viendra dans un cours d'introduction à l'algorithmique.
+C'est là la naissance de l'hypothèse de jeu basé sur un problème connu comme étant NP-difficile. Armée de cette hypothèse et d'une liste de problèmes NP-difficile, je cherche à concevoir un premier jeu: l'idée me viendra dans un cours d'introduction à l'algorithmique.
 
 ## Un deuxième jeu: Stable d'un graphe
 
