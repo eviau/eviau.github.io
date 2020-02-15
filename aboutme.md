@@ -9,7 +9,7 @@ B. Sc. Mathématiques (UQÀM)
 
 Montréal, QC, CANADA
 
-Par courriel / by email : [courriel HEC Montréal](mailto:edith.viau@hec.ca)
+Par courriel / by email : [finartcialist at gmail](mailto:finartcialist@gmail.com)
 
 
 *Things I would like to chat about includes:*
