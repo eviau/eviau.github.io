@@ -11,7 +11,6 @@ Montréal, QC, CANADA
 
 Par courriel / by email : [finartcialist at gmail](mailto:finartcialist@gmail.com)
 
-
 *Things I would like to chat about includes:*
 
 * New ways to apply mathematics (old and new, pure and applied) to novel business matters.
@@ -23,6 +22,9 @@ Par courriel / by email : [finartcialist at gmail](mailto:finartcialist@gmail.co
 * Philosophy of mathematics
 
 * Epistemology of finance
+
+* [csound](csound.com)
+
 
 
 

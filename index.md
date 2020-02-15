@@ -1,7 +1,10 @@
 *Dernière mise-à-jour: 14 février 2020*
 
 # eviau.github.io
+
 [About me](https://eviau.github.io/aboutme.html)
+
+[bandcamp: finartcialist](finartcialist.bandcamp.com)
 
 
 ## Nouvelles - news !
@@ -11,8 +14,11 @@
 ## Talks - Présentations
 
 * En février 2020, j'ai donné un [atelier bilingue FR/EN Python sur l'apprentissage machine pour les arts (introduction)](https://easternbloc.ca/fr/laboratoire/ateliers/machine-learning-python). 
+
 * [Art et IA pour le congrès de l'Association Mathématique du Québec, édition 2019](https://github.com/eviau/eviau.github.io/blob/master/talks/EVIAU_presentation_AIxART.pdf): introduction pour un public de mathématicien.ne.s à l'art dans le cadre d'un questionnement sur l'implication citoyenne et sur l'intelligence artificielle.
+
 * [LuminX pour Montréal Python](https://github.com/eviau/eviau.github.io/blob/master/talks/EViau_Luminx_2019.pdf): présentation grand public de mon projet d'art financier, LuminX. 
+
 * [Claude Shannon pour Mathématiques Montréal Mathematics](https://github.com/eviau/eviau.github.io/blob/master/talks/maths_industrie_shannon.pdf): présentation grand public des principaux travaux de recherche de Claude Shannon et du contexte dans lequel ceux-ci se sont développés.
 
 ## Écrits - Writings
