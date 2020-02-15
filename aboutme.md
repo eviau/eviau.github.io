@@ -23,7 +23,7 @@ Par courriel / by email : [finartcialist at gmail](mailto:finartcialist@gmail.co
 
 * Epistemology of finance
 
-* [csound](csound.com)
+* [csound](https://csound.com)
 
 
 

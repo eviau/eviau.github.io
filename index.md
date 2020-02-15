@@ -4,7 +4,7 @@
 
 [About me](https://eviau.github.io/aboutme.html)
 
-[bandcamp: finartcialist](finartcialist.bandcamp.com)
+[bandcamp: finartcialist](https://finartcialist.bandcamp.com)
 
 
 ## Nouvelles - news !
