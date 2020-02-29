@@ -11,7 +11,7 @@ twitter: [finartcialist](https://twitter.com/finartcialist)
 
 ## Nouvelles - news !
 
-* Je participerai au [Mutek AI Art Lab](http://www.mutek.org/fr/news/1086-mutek-and-zu-devoilent-les-participant-e-s-de-leur-laboratoire-de-creation-en-intelligence-artificielle-mutek-montreal-ai-art-lab) en mars 2020, pour lequel une [journée publique](http://www.mutek.org/fr/news/1093-mutek-montreal-ai-art-lab-journee-publique-le-samedi-7-mars-2020) aura lieu le sameid 7 mars 2020.
+* Je participerai au [Mutek AI Art Lab](http://www.mutek.org/fr/news/1086-mutek-and-zu-devoilent-les-participant-e-s-de-leur-laboratoire-de-creation-en-intelligence-artificielle-mutek-montreal-ai-art-lab) en mars 2020, pour lequel une [journée publique](http://www.mutek.org/fr/news/1093-mutek-montreal-ai-art-lab-journee-publique-le-samedi-7-mars-2020) aura lieu le samedi 7 mars 2020.
 
 ## Talks - Présentations
 
