@@ -8,12 +8,13 @@ bandcamp: [finartcialist](https://finartcialist.bandcamp.com)
 
 twitter: [finartcialist](https://twitter.com/finartcialist)
 
-
 ## Nouvelles - news !
 
-* Je participerai au [Mutek AI Art Lab](http://www.mutek.org/fr/news/1086-mutek-and-zu-devoilent-les-participant-e-s-de-leur-laboratoire-de-creation-en-intelligence-artificielle-mutek-montreal-ai-art-lab) en mars 2020, pour lequel une [journée publique](http://www.mutek.org/fr/news/1093-mutek-montreal-ai-art-lab-journee-publique-le-samedi-7-mars-2020) aura lieu le samedi 7 mars 2020.
+* Êtes-vous un.e ancien.ne de l'UQAM en mathématiques ? Joignez-vous à nous le [vendredi 20 mars 2020, 18h](https://diplomes.uqam.ca/55-a-l-agenda/1016-rencontre-des-diplomes-en-mathematiques) !
 
 ## Talks - Présentations
+
+* J'ai participé au [Mutek AI Art Lab](http://www.mutek.org/fr/news/1086-mutek-and-zu-devoilent-les-participant-e-s-de-leur-laboratoire-de-creation-en-intelligence-artificielle-mutek-montreal-ai-art-lab) en mars 2020, pour lequel une [journée publique](http://www.mutek.org/fr/news/1093-mutek-montreal-ai-art-lab-journee-publique-le-samedi-7-mars-2020) a eu lieu le samedi 7 mars 2020.
 
 * En février 2020, j'ai donné un [atelier bilingue FR/EN Python sur l'apprentissage machine pour les arts (introduction)](https://easternbloc.ca/fr/laboratoire/ateliers/machine-learning-python). 
 
