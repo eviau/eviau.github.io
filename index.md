@@ -1,4 +1,4 @@
-*Dernière mise-à-jour: 14 février 2020*
+*Dernière mise-à-jour: 15 mars 2020*
 
 # eviau.github.io
 
@@ -10,9 +10,9 @@ twitter: [finartcialist](https://twitter.com/finartcialist)
 
 ## Nouvelles - news !
 
-* Intéressé.e par l'art et l'IA ? On se voit à la SAT le [samedi 14 mars 2020](https://sat.qc.ca/fr/formations/la-station-comment-les-technologies-dintelligence-artificielle-changent-elles-le-role-de) !
+* ~~Intéressé.e par l'art et l'IA ? On se voit à la SAT le [samedi 14 mars 2020](https://sat.qc.ca/fr/formations/la-station-comment-les-technologies-dintelligence-artificielle-changent-elles-le-role-de) !~~ ANNULÉ / CANCELED (COVID-19)
 
-* Êtes-vous un.e ancien.ne de l'UQAM en mathématiques ? Joignez-vous à nous le [vendredi 20 mars 2020, 18h](https://diplomes.uqam.ca/55-a-l-agenda/1016-rencontre-des-diplomes-en-mathematiques) !
+* ~~Êtes-vous un.e ancien.ne de l'UQAM en mathématiques ? Joignez-vous à nous le [vendredi 20 mars 2020, 18h](https://diplomes.uqam.ca/55-a-l-agenda/1016-rencontre-des-diplomes-en-mathematiques) !~~ ANNULÉ / CANCELED (COVID-19)
 
 ## Talks - Présentations
 
