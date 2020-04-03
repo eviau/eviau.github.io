@@ -1,4 +1,4 @@
-*Dernière mise-à-jour: 15 mars 2020*
+*Dernière mise-à-jour: 3 avril 2020*
 
 # eviau.github.io
 
@@ -9,6 +9,10 @@ bandcamp: [finartcialist](https://finartcialist.bandcamp.com)
 twitter: [finartcialist](https://twitter.com/finartcialist)
 
 ## Nouvelles - news !
+
+* [TeXnically - still a game !](https://itch.io/jam/texnically): a [TeX](https://en.wikipedia.org/wiki/TeX)-based virtual game jam, hosted on itch. Inspired by PowerPoint game jams. Starts April 13th, 2020. Join us !
+
+## Annulations - canceled
 
 * ~~Intéressé.e par l'art et l'IA ? On se voit à la SAT le [samedi 14 mars 2020](https://sat.qc.ca/fr/formations/la-station-comment-les-technologies-dintelligence-artificielle-changent-elles-le-role-de) !~~ ANNULÉ / CANCELED (COVID-19)
 
