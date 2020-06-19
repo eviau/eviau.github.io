@@ -42,7 +42,7 @@
         .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
 
-    d3.csv("file://home/edith/dev/gh/eviau.github.io/test/data.csv", function (data) {
+    d3.csv("https://raw.githubusercontent.com/eviau/eviau.github.io/master/test/data.csv", function (data) {
 
         var x = d3.scaleLinear()
             .domain([0, 100])
