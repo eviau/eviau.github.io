@@ -1,2 +1,19 @@
 Coord_x,Coord_y,Title,Description,Link
-50,50,work 1, some resume, https://www.google.com
+75,50,finartcialist,Projet d'art sonore et de sonification de la donnée,https://finartcialist.bandcamp.com
+90,10,compte twitter,Plutôt utile à savoir, https://www.twitter.com/finartcialist
+50,100,about me, Pour en savoir plus sur moi,https://eviau.github.io/aboutme.html
+40,95,TeXnically, Game jam en TeX, https://itch.io/jam/texnically
+95,100,MUTEK AI Art Lab, Ateliers d'art et d'IA avec présentations publiques, http://www.mutek.org/fr/news/1086-mutek-and-zu-devoilent-les-participant-e-s-de-leur-laboratoire-de-creation-en-intelligence-artificielle-mutek-montreal-ai-art-lab
+70,100,Automachine, Atelier d'IA pour l'art en Python, https://easternbloc.ca/fr/laboratoire/ateliers/machine-learning-python
+60,100,Congrès AMQ 2019, Présentation sur l'art et l'IA d'un point de vue mathématique, https://github.com/eviau/eviau.github.io/blob/master/talks/EVIAU_presentation_AIxART.pdf
+65,100,Montréal-Python 2019,Présentation de mon projet LuminX,https://github.com/eviau/eviau.github.io/blob/master/talks/EViau_Luminx_2019.pdf
+20,85,Mathématiques Montréal Mathematics, Présentation sur Claude Shannon,https://github.com/eviau/eviau.github.io/blob/master/talks/maths_industrie_shannon.pdf
+45,75,Création systématique,Essai sur la systématisation de la notion de jeu,https://eviau.github.io/ecrits/complexitejeu.html
+73,75,LEDxchange,Version LED de LuminX, https://eviau.github.io/finartcialist/luminx.html
+93,82,IsItArtRL?,Oeuvre d'apprentissage par renforcement,https://eviau.github.io/ecrits/isitartrl.html
+10,40,Measures of uncertainty,Essai sur la volatilité,https://eviau.github.io/ecrits/stdev.html
+5,30,Reading Vapnik,Notes de lecture de Statistical Learning Theory par Vapnik,https://eviau.github.io/ecrits/readingvapnik.html
+46,83,Art Gallery, Un jeu NP-difficile présenté à FLOP Mtl, https://eviau.github.io/artgalleryjs/
+3,23,Explorations algorithmiques,Exploration de la capacité de généralisation hors-domaine de différents algos,https://github.com/eviau/AlgoExplo/blob/master/AlgoExplo.ipynb
+32,44,Traveling Erdős,Petit jeu de mise en contact,https://eviau.github.io/TravelingErdos/RndGraphjs/index.html
+100,100,ARTificial,Projet d'expositions d'art et d'IA,https://artificial.stdev

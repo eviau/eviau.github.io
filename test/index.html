@@ -1,48 +1,70 @@
 <!DOCTYPE html>
 <META charset="utf-8">
 <script src="https://d3js.org/d3.v4.js"></script>
-<div id="dataviz" class="svg-container"></div>
+
+<body>
+
+    <div id="dataviz" class="svg-container"></div>
+</body>
 <style>
     .svg-container {
         display: inline-block;
-        position: relative;
         width: 100%;
         padding-bottom: 100%;
-        vertical-align: top;
         overflow: hidden;
+        margin: auto;
+
     }
 
     .svg-content {
-        display: inline-block;
+        margin: 0;
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 </style>
 
 <script>
-    var margin = { top: 10, right: 30, bottom: 30, left: 60 },
-        width = 1500 - margin.left - margin.right,
-        height = 450 - margin.top - margin.bottom;
 
-    var svg = d3.select("#dataviz")
+    var element = d3.select('.svg-container').node();
+
+    var margin = { top: 10, right: 30, bottom: 60, left: 60 },
+        width = 500 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+
+    var svg = d3.select("div#dataviz")
         .append("svg")
-        .attr("preserveAspectRatio", "xMinYMin meet")
-        .attr("viewBox", "0 0 150 150")
+        .attr("preserveAspectRatio", "xMidYMin meet")
+        .attr("viewBox", "0 0 500 500")
         .classed("svg-content", true)
         .append("g")
         .attr("transform",
             "translate(" + margin.left + "," + margin.top + ")");
 
-    d3.csv("https://raw.githubusercontent.com/eviau/eviau.github.io/master/test/data.csv", function (data) {
+    d3.csv("file://home/edith/dev/gh/eviau.github.io/test/data.csv", function (data) {
 
         var x = d3.scaleLinear()
             .domain([0, 100])
-            .range([0, width]);
+            .range([0, width])
 
         svg.append("g")
             .attr("transform", "translate(0," + height + ")")
             .call(d3.axisBottom(x));
+
+        svg.append("text")
+            .attr("text-anchor", "end")
+            .attr("transform", "translate(" + (width) + " ," +
+                (height + margin.top + 30) + ")")
+            .text("public");
+
+        svg.append("text")
+            .attr("transform", "rotate(-90)")
+            .attr("y", 0 - margin.left)
+            .attr("x", 0)
+            .attr("dy", "1em")
+            .style("text-anchor", "end")
+            .text("art");
 
         var y = d3.scaleLinear()
             .domain([0, 100])
@@ -63,21 +85,32 @@
 
         var mouseover = function (d) {
             tooltip
-                .style("opacity", 1)
+                .style("opacity", 1);
+
+            d3.select(this).style("opacity", 1)
         }
 
         var mousemove = function (d) {
             tooltip
-                .html("Title:" + d.Title + " <br>" + "Description:" + d.Description + "<br>" + "Link:" + d.Link)
-                .style("left", (d3.mouse(this)[0] + 90) + "px") // It is important to put the +90: other wise the tooltip is exactly where the point is an it creates a weird effect
+                .html("Title:" + d.Title + " <br>" + "Description:" + d.Description + "<br>")
+                .style("left", (d3.mouse(this)[0] + 90) + "px")
                 .style("top", (d3.mouse(this)[1]) + "px")
+                .transition()
+                .duration(100)
         }
 
         var mouseleave = function (d) {
             tooltip
                 .transition()
-                .duration(200)
+                .duration(1000)
                 .style("opacity", 0)
+
+            d3.select(this).style("opacity", 0.25)
+        }
+
+        var mouseclick = function (d) {
+               window.open(d.Link);
+
         }
 
         svg.append("g")
@@ -87,13 +120,14 @@
             .append("circle")
             .attr("cx", function (d) { return x(d.Coord_x); })
             .attr("cy", function (d) { return y(d.Coord_y); })
-            .attr("r", 5)
+            .attr("r", 10)
             .style("fill", "#69b3a2")
-            .style("opacity", 0.5)
+            .style("opacity", 0.25)
             .style("stroke", "white")
-            .on("mouseclick", mouseover)
-            .on("mousemove", mousemove)
-            .on("mouseleave", mouseleave)
+            .on("mouseover", mouseover)
+            .on("mousemove",mousemove)
+            .on("mouseleave",mouseleave)
+            .on("click",mouseclick)
 
     })
 
