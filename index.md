@@ -1,16 +1,45 @@
-*Dernière mise-à-jour: 3 avril 2020*
+*Dernière mise-à-jour: 25 octobre 2020*
 
 # eviau.github.io
 
 [About me](https://eviau.github.io/aboutme.html)
 
+[finartcialist website](https://finartcialist.com)
+
 bandcamp: [finartcialist](https://finartcialist.bandcamp.com)
 
 twitter: [finartcialist](https://twitter.com/finartcialist)
 
+
 ## Nouvelles - news !
 
-* [TeXnically - still a game !](https://itch.io/jam/texnically): a [TeX](https://en.wikipedia.org/wiki/TeX)-based virtual game jam, hosted on itch. Inspired by PowerPoint game jams. Starts April 13th, 2020. Join us !
+Plusieurs projets entre avril 2020 et octobre 2020, notamment:
+
+* [fleuve](https://github.com/eviau/fleuve), un langage de programmation poétique non-fonctionnel, potentiellement généraliste et très opiniâtre. [featured on Joy of Computing](https://joy.recurse.com/posts/1002-fleuve-an-esolang-inspired-by-italo-calvino)
+
+* [tisserand workshops](https://github.com/tisserand-workshops): a serie of electronic literature workshops. [featured at Our Networks 2020](https://ournetworks.ca/) 
+
+* [de la perspective en peinture: analogies avec l'IA ?](eviau.github.io/ecrits/ai_art_renaissance.html): un essai en français sur l'intelligence artificielle en tant qu'outil artistique.
+
+* [is art invented or discovered?](eviau.github.io/ecrits/artinventeddiscovered.html): an essay in English about this philosophical question about art.
+
+* [a data viz of this website](https://eviau.github.io/test/) : not updated, might be useful for navigating...!
+
+* [six circuits for this millenium](https://finartcialist.itch.io/six-circuits-for-this-millenium), my humble contribution to the Calvino game jam!
+
+* [a tiny website for a webring](https://eviau.github.io/thiswebsite/). this webring: [portal constellation](https://possible.social/join)
+
+* [Bienvenue à la parauniversité](https://github.com/eviau/parauniversite), ou la librairie de Babel en version magistrale.
+
+* [fib - a fibonacci interpreter, for any given (programming) language](https://github.com/eviau/fib): or interpretation as an art.
+
+* [explorations](https://github.com/eviau/explorations) : web browswing, with a twist. a collection.
+
+* [residence solo](https://eviau.github.io/residencesolo/): le journal d'une résidence solo à la maison, effectuée en mai 2020. [le résultat, sur bandcamp](https://finartcialist.bandcamp.com/album/conditions-initiales)
+
+* [meditative games, or bringing monochromatic paintings to the 21st century](https://github.com/eviau/meditativegames)
+
+* [zine mouvements sous-jacents vol 0 num 0](https://finartcialist.bandcamp.com/merch/zine-mouvements-sous-jacents-vol-0-num-0): en français.
 
 ## Annulations - canceled
 
@@ -44,6 +73,9 @@ twitter: [finartcialist](https://twitter.com/finartcialist)
 
 
 ## Code - Programmation
+
+* [TeXnically - still a game !](https://itch.io/jam/texnically): a [TeX](https://en.wikipedia.org/wiki/TeX)-based virtual game jam, hosted on itch. Inspired by PowerPoint game jams. Started on April 13th, 2020.
+
 
 * The [Art Gallery game](https://eviau.github.io/artgalleryjs/), based on a NP-hard computational geometry problem.
 
