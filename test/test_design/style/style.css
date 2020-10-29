@@ -1,5 +1,5 @@
 body {
-    font-family: 'Forum', cursive;
+    font-family: 'Playfair Display', serif;
     background: pink;
 }
 
@@ -7,17 +7,25 @@ a {
     text-decoration: none;
 }
 
+#a-normal{
+    text-decoration: none;
+    color: #464444;
+    font-style: italic;
+}
+
 a:link{
     color: #333;
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 a:visited{
     color: #333;
+    font-weight: bolder;
 }
 
 a:hover{
     color: #ffffff;
+    font-weight: 900;
 }
 
 h1 {
@@ -39,7 +47,13 @@ h3 {
 p {
     margin: 20px;
     font-size: 24px;
+    font-family: 'Forum', serif;
 }
+
+#ul-main{
+    font-size: 24px;
+}
+
 
 #header {
     border-style: solid;
@@ -182,6 +196,8 @@ switch:focus{
     font-size: 18px;
 
 }
+
+
 
 @media (max-width: 768px){
     #sticky-menu-mobile ul{
