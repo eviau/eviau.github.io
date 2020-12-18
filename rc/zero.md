@@ -20,3 +20,6 @@ I feel that doing self-directed work under the RC umbrella helps to justify taki
 ## Things to work on in the future
 
 Having had the time to experiment on self-directed learning and work in the current year and in the past, I still struggle with finding the right schedule to keep.
+
+[index of these posts](https://eviau.github.io/rc/index.html) --- [next post](https://eviau.github.io/rc/one.html)
+

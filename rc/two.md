@@ -1,7 +1,7 @@
 # 2 - My next three weeks at RC
 *Nov 23rd, 2020*
 
-[previous post](https://eviau.github.io/rc/one.html]) --- [index of these posts](https://eviau.github.io/rc/index.html) --- [next post](https://eviau.github.io/rc/three.html)
+[previous post](https://eviau.github.io/rc/one.html) --- [index of these posts](https://eviau.github.io/rc/) --- [next post](https://eviau.github.io/rc/three.html)
 
 
 During the third-quarter of the batch, I spent my time on documenting my own work, trying to finish the [OS tutorial](https://www.cl.cam.ac.uk/projects/raspberrypi/tutorials/os/), welcoming the new batch and taking part in the Generative Art & Music week!
@@ -19,3 +19,6 @@ A thing I was happy to help organize and host is an [esolang](http://esolangs.or
 Other projects also include: starting an [excel2python](https://github.com/eviau/excel2python) blog series; a [Csound](https://csound.com/) workshop; a zine make & tell; finishing preparing my [mailing list](http://eepurl.com/hbJ1Rb) for [finartcialist](https://www.finartcialist.com); worked on [finartcialist sound art](https://finartcialist.bandcamp.com); showcased my [Lorenz attractor synth](https://github.com/eviau/residencesolo) at the Art week show. I also did a full-stack data science project, hosted on Heroku, about [the Montréal’s public libraries most borrowed novels](http://bibliotheques-mtl.herokuapp.com/).
 
 I will [write my thoughts on the OS programming tutorial](https://eviau.github.io/ecrits/os_programming.html) towards the end of my batch - stay tuned !
+
+
+[previous post](https://eviau.github.io/rc/one.html) --- [index of these posts](https://eviau.github.io/rc/) --- [next post](https://eviau.github.io/rc/three.html)

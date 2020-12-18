@@ -1,7 +1,7 @@
 # 3 - My last three weeks at RC
 *Dec 18th, 2020*
 
-[previous post](https://eviau.github.io/rc/two.html]) --- [index of these posts](https://eviau.github.io/rc/index.html)
+[previous post](https://eviau.github.io/rc/two.html) --- [index of these posts](https://eviau.github.io/rc/)
 
 The tenth week of my time at RC was spent taking care of personal matters. Not much was done that week besides postponing everything.
 
@@ -14,3 +14,5 @@ Today is the last day of my batch. I learned lots of various things at various l
 Although this year was not an easy year, being at Virtual RC made my days better. 
 
 Thanks everyone - and see you soon :)
+
+[previous post](https://eviau.github.io/rc/two.html) --- [index of these posts](https://eviau.github.io/rc/)
