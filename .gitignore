@@ -1,1 +1,5 @@
-*.DS_Store
+/generate/end.txt
+/generate/preambule.txt
+/generate/extenso.csv
+/generate/extenso.html
+/generate/ecrits

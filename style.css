@@ -1,0 +1,84 @@
+body {
+    font-family: serif;
+    background: pink;
+}
+
+a {
+    color: #464444;
+    font-size: 24px;
+}
+
+#titre {
+    font-size: 42px;
+    text-decoration: none;
+}
+
+h1 {
+    margin: 0px;
+    font-size: 42px;
+}
+
+h2 {
+    margin: 10px;
+    font-size: 28px;
+}
+
+h3 {
+    margin: 10px;
+    font-size: 28px;
+}
+
+p {
+    margin: 20px;
+    font-size: 24px;
+    font-family: math;
+}
+
+header {
+    border-style: solid;
+    background-color: #aaaaaa;
+    color: #000000;
+    text-align: center;
+}
+
+#container {
+    background-color: #2e2e2e;
+    margin-left: auto;
+    margin-right: auto;
+    color: #aaaaaa;
+    max-width: 850px;
+    margin-top: 5%;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin: 0% 0% 0% 0%;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    border-style: solid;
+    background-color: #aaaaaa;
+    color: #000000;
+}
+
+#footer {
+    clear: both;
+    font-style: italic;
+    padding: 10px;
+    background-color: #464444;
+    text-align: right;
+}
+
+.extenso-item {
+    text-decoration: none;
+}

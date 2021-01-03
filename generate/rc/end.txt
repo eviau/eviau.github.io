@@ -1,0 +1,12 @@
+        
+        <nav role="navigation"><a href="../rc/index.html">vers l'index // to the index </a></nav>
+        </div>
+
+        <footer>
+            dernière mise-à-jour: 2 janvier 2021, Montréal QC (Canada).
+        </footer>
+    </div>
+
+</body>
+
+</html>
