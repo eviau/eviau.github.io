@@ -28,7 +28,7 @@ h3 {
     font-size: 28px;
 }
 
-p {
+p, ul, il {
     margin: 20px;
     font-size: 24px;
     font-family: math;
