@@ -1,0 +1,245 @@
+<html>
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>adding your own extension to supercollider - eviau</title>
+    
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+
+</head>
+
+
+
+<body>
+
+    <div id="container">
+
+        <header>
+
+            <h1><a id="titre" href="../index.html">eviau</a></h1>
+
+        </header>
+
+
+
+            <div id="main">
+
+                             
+
+<h2 id="adding-an-extension-to-supercollider">Adding your own extension to SuperCollider</h2>
+
+<p>Recently, I was interested in programming a new extension for SuperCollider. I was left confused by the process! So, here is a blog post on how to add an extension to SuperCollider. Extensions are written in C++. We will not be covering how to write an extension beyond what is needed for this tutorial.</p>
+
+<p>This guide is for Ubuntu 20.04 LTS.</p>
+
+<h2 id="setup">Setup</h2>
+
+<p>This guide assumes that you have SuperCollider installed (my version is 3.10.0). We will need:</p>
+
+<ul>
+
+<li>Python 3</li>
+
+<li>a tool for creating virtual environments for Python, like <code>virtualenv</code></li>
+
+<li>gcc : you check that gcc is intalled by running <code>gcc --version</code> in a Terminal</li>
+
+<li>git, so that we can clone the SuperCollider repo</li>
+
+<li>the Terminal and its command line interface</li>
+
+<li>a text editor</li>
+
+</ul>
+
+<p>Make sure that you have all the tools ready to go - and let's get started!</p>
+
+<h2 id="lets-start-with-a-venv">Let’s start with a venv</h2>
+
+<p>Create a new directory called <code>supercollider_extensions</code> somewhere on your computer that make sense to you. Let’s initialize a Python virtualenv for this project so that we can install <code>cookiecutter</code>. Navigate in the Terminal to your <code>supercollider_extensions</code> folder and run the following command:</p>
+
+<pre><code>python3 - m virtualenv venv</code></pre>
+
+<p>And now, activate the virtual env:</p>
+
+<pre><code>source venv/bin/activate</code></pre>
+
+<p>Now that we are in the virtualenv, we can install <code>cookiecutter</code>.</p>
+
+<h2 id="installing-cookiecutter">Installing cookiecutter</h2>
+
+<p>We will be using cookiecutter. Install it inside your virtual env by running</p>
+
+<pre><code>pip3 install cookiecutter</code></pre>
+
+<p>We are now ready to generate a SuperCollider extension project with cookiecutter.</p>
+
+<h2 id="installing-supercollider-source-code">Installing SuperCollider source code</h2>
+
+<p>"Wait! Isn’t my current installation good enough?"</p>
+
+<p>Yes - but we need a clone of SuperCollider <em>source code</em> on a path that cookiecutter can use.</p>
+
+<p>If you do not have this already, or if you are not sure, navigate to the SuperCollider release page using this <a href="https://github.com/supercollider/supercollider/releases/tag/Version-3.10.0">link to the SuperCollider release page, version 3.10.0</a>.</p>
+
+<p><strong>Note:</strong> This <a href="https://github.com/supercollider/example-plugins#step-1-obtain-header-files">link to more information on getting SuperCollider source code</a> might be useful if you have a different OS or a different version of SuperCollider.</p>
+
+
+<p>At the bottom of the page, there is a section named <em>Assets</em>; we are on Ubuntu, which means we want the “SuperCollider-3.10.0-Source-linux.tar.bz2” version.</p>
+
+<p>To download the source code, click on its name.</p>
+
+<p>Next step is to extract the files you just downloaded to the <code>supercollider_extensions</code> folder we created earlier.</p>
+
+<p>Finally, we are going to rename the SuperCollider source code folder to a name that cookiecutter will be able to find: <code>supercollider</code>.</p>
+
+<h2 id="generating-a-project-with-cookiecutter">Generating a project with cookiecutter</h2>
+
+<p>In the Terminal, in <code>supercollider_extensions</code> folder, run the following command:</p>
+
+<pre><code>cookiecutter https://github.com/supercollider/cookiecutter-supercollider-plugin</code></pre>
+
+<p>There will be a questionnaire to help you set up a folder appropriately structured for a SuperCollider extension. Here are my answers:</p>
+
+<pre><code>$ cookiecutter https://github.com/supercollider/cookiecutter-supercollider-plugin
+
+You&#39;ve downloaded /home/z/.cookiecutters/cookiecutter-supercollider-plugin before. Is it okay to delete and re-download it? [yes]: no
+
+Do you want to re-use the existing version? [yes]: yes
+
+full_path_to_supercollider_source [/home/wendy/supercollider (if you haven&#39;t cloned it yet, do that first! Press Ctrl-C to exit this script)]: /home/z/dev/scd/supercollider
+
+project_name [Simple Gain]: A simple extension
+
+project_namespace [Asimpleextension]: 
+
+repo_name [asimpleextension]: 
+
+plugin_name [Asimpleextension]: 
+
+plugin_description [A simple audio volume gain plugin]: A simple extension.
+
+full_name [Wendy Carlos]: The test team
+
+github_username [the.test.team]: none     
+
+email [none@site.com]: none@example.com</code></pre>
+
+<p>To check that this step executed correctly, run the command <code>ls</code> in a Terminal window: there should be a folder with the name of your extension in it.</p>
+
+<p><strong>Note</strong>: the extension project name should start with a capital letter, or else SuperCollider will be unable to find the project.</p>
+
+<h2 id="code-your-extension">Code your extension</h2>
+
+<p>Now is the time to code your extension! You can do so by changing the <code>.cpp</code> and <code>.hpp</code> files in the <code>supercollider_extensions/NAME_OF_YOUR_EXTENSION/plugins/NAME_OF_YOUR_EXTENSION</code> folder.</p>
+
+<p><strong>Note</strong>: I am still new to SuperCollider and C++ so this might not be working the way I think it does… but I have found I had less bugs by using capital letters every time I needed to refer to the name of my extension, in the code.</p>
+
+<p>For this tutorial we will leave the example from cookiecutter as is.</p>
+
+<h2 id="build-the-project">Build the project</h2>
+
+<p>We are now ready to build the project!</p>
+
+<p>We will go inside the extension directory and then we will build the project. In the Terminal, do the following:</p>
+
+<pre><code>cd asimplextension
+
+mkdir build
+
+cd build
+
+cmake .. -DCMAKE_BUILD_TYPE=Debug
+
+cmake --build . --config Debug</code></pre>
+
+<p>Running this last command might give you debugging comments for your extension. Fix these before continuing.</p>
+
+<h2 id="installing-the-extension">Installing the extension</h2>
+
+<h3 id="if-you-added-files-to-the-extension-while-coding-optional">(optional) If you added files to the extension while coding… </h3>
+
+<p>If you added or removed plugins or files since running cookiecutter for the first time, you might need to regenerate the CMakeLists.txt file.</p>
+
+<p>To do so, run the following in the Terminal, from the <code>supercollider_extensions/EXTENSIONNAME</code> path:</p>
+
+<pre><code>python ../supercollider/tools/cmake_gen/generate_server_plugin_cmake.py --help</code></pre>
+
+<p>Read the options to see which one fits your case. My command looked like this:</p>
+
+<pre><code>python /home/z/dev/supercollider_extensions/supercollider/tools/cmake_gen/generate_server_plugin_cmake.py -P &quot;Asimpleextension&quot; -p &quot;plugins/Asimpleextension&quot; -a &quot;z&quot;</code></pre>
+
+
+<p>Depending on the changes made while coding your extensions, you might need to adapt it to your needs.</p>
+
+<h3 id="finding-where-to-install-the-extension">Finding where to install the extension</h3>
+
+<p>Open the SuperCollider app.</p>
+
+<p>In a new session, evaluate <code>Platform.userExtensionDir</code> to obtain the path to the extensions folder of your installation of SuperCollider. Mine is <code>/home/z/.local/share/SuperCollider/Extensions</code>.</p>
+
+<p>Back to the <code>supercollider_extensions/asimplextension</code> folder in the Terminal, run the following commands to install, updating the path with the extensions path we just obtained:</p>
+
+<pre><code>cd build/
+
+cmake .. -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/z/.local/share/SuperCollider/Extensions
+
+cmake --build . --config Release
+
+cmake --build . --config Release --target install</code></pre>
+
+<p>Are we ... done ? Maybe... ?</p>
+
+<h2 id="congrats-you-are-done-installing-an-extension">CONGRATS: you have installed an extension!</h2>
+
+<p>Open the SuperCollider app - you might need to close it first and re-open it so that it loads extensions properly.</p>
+
+<p>In a session file, type <code>Asimpleextension</code> (or the name of your extension): it should show up automatically.</p>
+
+<p>Congratulations - you made it :) :) :)</p>
+
+<h2 id="resources">Resources</h2>
+
+<p>I was able to successfully install my extension in SuperCollider by using the following webpages, in order of chronological discovery by yours truly:</p>
+
+<ul>
+
+<li><a href="https://doc.sccode.org/Guides/WritingUGens.html">link to Writing Unit Generators on SuperCollider Help</a>: this is where I first started my research</li>
+
+<li><a href="https://doc.sccode.org/Guides/UsingExtensions.html">link to Using Extensions on SuperCollider Help</a>: this gives you the structure of the extension folder and some general information.</li>
+
+<li><a href="https://github.com/supercollider/example-plugins">link to Example Plugins on SuperCollider Github</a>: while useful, this page is also deprecated.</li>
+
+<li><a href="https://github.com/supercollider/cookiecutter-supercollider-plugin">link to the cookiecutter project for SuperCollider plugins, on Github</a>: this is where we start, and we will be coming back to the Example Plugins repo on Github because some information has yet to be ported between the two of them.</li>
+
+</ul>
+
+<h2 id="thank-you">Thank you!</h2>
+
+<p>Thanks to anonymous friend for helping me with some of these steps, and to another anonymous friend for reviewing this tutorial. &lt;3</p>
+
+        
+
+        <nav role="navigation"><a href="../extenso.html">vers extenso // to extenso </a></nav>
+
+        </div>
+
+
+
+        <footer>
+
+            dernière mise-à-jour: 7 mai 2021, Montréal QC (Canada).
+
+        </footer>
+
+    </div>
+
+
+
+</body>
+
+
+
+</html>
+

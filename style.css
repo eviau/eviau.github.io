@@ -9,23 +9,26 @@ a {
 }
 
 #titre {
-    font-size: 42px;
+    font-size: 56px;
     text-decoration: none;
+    font-style: bold;
+    font-family: serif;
 }
 
 h1 {
-    margin: 0px;
+    margin: 10px;
     font-size: 42px;
+    text-align: right;
 }
 
 h2 {
     margin: 10px;
-    font-size: 28px;
+    font-size: 32px;
 }
 
 h3 {
     margin: 10px;
-    font-size: 28px;
+    font-size: 26px;
 }
 
 p, ul, il {
@@ -82,3 +85,13 @@ header {
 .extenso-item {
     text-decoration: none;
 }
+
+code {
+font-size: 20px;}
+
+pre{
+margin: 0 0 0 50;
+ white-space: pre-wrap;
+ word-wrap: break-word;       
+}
+
