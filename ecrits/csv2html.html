@@ -1,0 +1,119 @@
+<html>
+
+
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>eviau</title>
+
+
+
+    <link rel="stylesheet" type="text/css" href="../style.css" />
+
+</head>
+
+
+
+<body>
+
+    <div id="container">
+
+        <header>
+
+            <h1><a id="titre" href="../index.html">eviau</a></h1>
+
+        </header>
+
+
+
+            <div id="main">
+
+<h2 id="csv2html---with-python">csv2html - with Python</h2>
+<p>If you have a list of Things that you are maintaining and using as a single source of information for various documents, why not put the list into a csv and then use Python to generate the document?</p>
+<p>Here is how to do this for a tiny <code>index.html</code> kind of webpage.</p>
+<h3 id="create-and-maintain-the-.csv-file">Create and maintain the .csv file</h3>
+<p>This is probably the hardest part.</p>
+<ul>
+<li>Create a <code>.csv</code> file with the relevant column headers.</li>
+</ul>
+<p>For a blog, this might be <code>date</code>, <code>author</code>, <code>title</code>, and <code>abstract</code>.</p>
+<ul>
+<li>Add the information to the <code>.csv</code> file.</li>
+</ul>
+<p>One blog post by row, fill the columns with the information about the blog posts that you have.</p>
+<ul>
+<li>Maintain the .csv file</li>
+</ul>
+<p>Everytime a new blog post appear, add it to the .csv file.</p>
+<h3 id="write-a-tiny-python-script-to-generate-html-from-the-.csv">Write a tiny Python script to generate HTML from the .csv</h3>
+<p>Here is an <a href="https://github.com/eviau/eviau.github.io/blob/main/generate/extenso.py">example I use to generate the extenso.html page</a>. Yes, it is hard-coded. Yes, I might change it. Yes, it works.</p>
+<p>The idea is to… :</p>
+<ul>
+<li>Import the .csv into a dataframe (using pandas), or read it line by line.</li>
+</ul>
+<p>I found it easier to build with pandas because I already know how it works, feel welcome to adjust to your needs and current level of skill.</p>
+<ul>
+<li>Decide on how you want to format the file</li>
+</ul>
+<p>Maybe you need every <code>date</code> to be in bold, maybe you want the <code>title</code> to be a <code>&lt;h2&gt;</code> heading…</p>
+<ul>
+<li>Write a script that logs to the terminal every tag you need, with all the information.</li>
+</ul>
+<p>E.g. for our <code>.csv</code> file that generates an <code>index.html</code>, I could have:</p>
+<pre><code># first, let&#39;s go row by row and output one row
+for row in dataframe.iterrows():
+    
+    # we start a paragraph
+    print(&quot;&lt;p&gt;&quot;)
+    # we print the blog post with the following formatting
+    # &lt;DATE&gt; : &lt;TITLE&gt;, by &lt;AUTHOR&gt;. &lt;ABSTRACT&gt;
+    print(dataframe[&#39;date&#39;] + &quot;:&quot; + &quot;dataframe[&#39;title&#39;] + &#39;, by &#39; + dataframe[&#39;author&#39;] + &#39;.&#39; + dataframe[&#39;abstract&#39;])
+    # we could add a link with the following:
+    print(&#39;&lt;a href=&quot;&#39; + dataframe[&#39;url&#39;] + &#39;&quot;&gt;&#39; + dataframe[&#39;title&#39;] + &#39;&lt;/a&gt;&#39;)
+    # we close the paragraph
+    print(&quot;&lt;/p&gt;&quot;) </code></pre>
+<p>We could concatenate all the arguments of the <code>print</code>s into one <code>print</code> to avoid skipping line - or we could look at the Python docs to do it properly.</p>
+<p>But remember - we are duct-taping a website tooling suite here, no need to go into all the details!</p>
+<ul>
+<li>Copy-paste the HTML log from the terminal to the <code>index.html</code> template you <a href="./duct-tape-blogging.html">created earlier on</a></li>
+</ul>
+<p>That’s it. We are done!</p>
+<h3 id="potential-lists-to-consider-for-this-approach">Potential lists to consider for this approach</h3>
+<p>I’ve used similar scripts combined with a .csv file to make TeX and HTML documents of…</p>
+<ul>
+<li>blog posts</li>
+<li>arts projects</li>
+<li>jobs</li>
+<li>education</li>
+</ul>
+<p>Or, generally speaking, just anything that could be on a CV ?</p>
+<h3 id="but-why">But why ??</h3>
+<p>Learning how things are made is a great way to improve your skills.</p>
+<p>Knowing when to reduce the scope is a nice way to learn more things.</p>
+<p>The problem I am trying to solve with these idea is the fact that if you are blogging infrequently, or for any website really, using a framework might be more work on your part than just having a bunch of <code>.md</code> files that you move onto <code>.html</code> with a script.</p>
+<p>Would I put this in production for a Major Website? No. Do I have a Major Website? Also no.</p>
+<p>Feel welcome to adapt the <code>extenso.py</code> script to your needs, and have fun focusing on the writing part, not the tooling.</p>
+
+        <nav role="navigation"><a href="../extenso.html">vers extenso // to extenso </a></nav>
+
+        </div>
+
+
+
+        <footer>
+
+            dernière mise-à-jour: 2 janvier 2021, Montréal QC (Canada).
+
+        </footer>
+
+    </div>
+
+
+
+</body>
+
+
+
+</html>
