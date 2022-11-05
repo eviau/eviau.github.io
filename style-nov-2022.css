@@ -1,0 +1,23 @@
+html{
+	background-color: #6200B3;
+	font-family: math, sans;
+	    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+a{
+	color: black;}
+
+h1 {
+	font-size: 54px;
+	font-family: serif;}
+
+header, nav, main, #now{
+	background-color: white;
+	border: solid #CBE896 5px;
+	border-radius: 5px;
+	padding: 20px;
+	margin: 3%;
+	width: 70vw;
+	max-width: 750px;
+}
