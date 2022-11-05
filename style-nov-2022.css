@@ -3,7 +3,8 @@ html{
 	font-family: math, sans;
 	    display: flex;
     align-items: center;
-    justify-content: center;}
+    justify-content: center;
+    font-size: 24px;}
 
 a{
 	color: black;}
